@@ -9,6 +9,9 @@ class Conta:
         self.__saldo = saldo
         self.__senha = senha
    
+    #ENCAPSULAMENTO: permite acessar os atribuitos da classe
+    #por meio do "property"
+    #Criar o "property" de todos os atributos.
     @property
     def numero(self):
         return self.__numero
